@@ -1,0 +1,17 @@
+[project]
+name = "script-module-h11"
+version = "0.1.0"
+description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
+authors = [
+    { name = "Florence Wolfe", email = "florencewolfe@pm.me" }
+]
+dependencies = [
+    "h11>=0.14.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
